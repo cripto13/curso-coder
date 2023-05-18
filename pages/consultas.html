@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/style.css">
+
+        <title>Consultas</title>
+    </head>
+    <body>
+        <header>
+            
+        <!-- LOGO -->
+            <div>
+                <img class="imagen-logo" src="../assets/image/logo-gar.jpg" alt="Logo">
+            </div>
+
+        <!-- BARRA INICIO -->
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./sobre-nosotros.html">Sobre Nosotros</a></li>
+                    <li><a href="./galeria.html">Galeria</a></li>
+                    <li><a href="#">Consultas</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="form-flex" >
+        <!-- FORMULARIO -->
+            <form class="form">
+                <div class="form-container">
+                    <h3 class="form-title">Consulta</h3>
+
+                        <!-- SE SACAN LOS LABEL PARA QUE QUEDE MAS ESTETICO -->
+                        <!-- <label for="nombre">Nombre:</label> -->
+                        <input type="text" class="form-input" name="nombre" id="nombre" placeholder="Nombre" required>
+                        <input type="email" class="form-input" name="email" id="email" placeholder="Correo" required>
+                        <input type="number" class="form-input" name="telefono" id="telefono" placeholder="Telefono" required>
+                        <input type="text" class="form-input" name="asunto" id="asunto" placeholder="Asunto" required>
+                        <textarea name="comentarios" class="form-input form-input2" cols="30" rows="10" placeholder="Comentarios" required></textarea>
+
+                        <input type="submit" class="form-button">
+                    </div>
+            </form>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-redes">
+                <!-- DUDA - DEBERIA PONER UN UL??? -->
+                <li><img src="../assets/icon/facebook.svg" alt="Facebook" /><a href="https://es-la.facebook.com/" target="_blank">Facebook</a></li>
+                <li><img src="../assets/icon/square-instagram.svg" alt="Instagram" /><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                <li><img src="../assets/icon/square-twitter.svg" alt="Twitter" /><a href="https://twitter.com/?lang=es" target="_blank">Twitter</a></li>
+                <li><img src="../assets/icon/linkedin.svg" alt="Linkedin" /><a href="https://www.linkedin.com/feed/" target="_blank">Linkedin</a></li>
+            </div>
+        </footer>        
+    </body>
+</html>
+
